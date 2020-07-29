@@ -314,15 +314,15 @@ a.underlined:hover {
   min-height: 550px;
 }
 
-#section_title {
+.section_title {
   display: inline-block;
   padding: 0 15px;
   position: relative;
   color: #FF9800;
 }
 
-#section_title:before,
-#section_title:after {
+.section_title:before,
+.section_title:after {
   background: rgba(0, 189, 157, 1);
   content: "";
   display: block;
@@ -332,11 +332,11 @@ a.underlined:hover {
   width: 100%;
 }
 
-#section_title:before {
+.section_title:before {
   right: 100%;
 }
 
-#section_title:after {
+.section_title:after {
   left: 100%;
 }
 
@@ -561,5 +561,3 @@ a.underlined:hover {
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #ffffff;
 }
-
-Resources1×0.5×0.25×Rerun
