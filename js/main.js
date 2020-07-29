@@ -24,19 +24,3 @@ $(document).ready(function(){
     }  // End if
   });
 });
-
-
-
-// TYPING ANIMATION
-$(function(){
-$(".typing").typed({
-            strings: ["a perfectionist!", "hard working.", "honest.", "keen to learn."],
-            typeSpeed: 50,
-            backDelay: 750,
-            loop: true,
-            loopCount: false,
-            callback: function(){ }
-        });
-});
-
-$('#current_year').text(new Date().getFullYear());

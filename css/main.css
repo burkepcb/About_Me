@@ -1,4 +1,4 @@
-HTML CSS JSResult
+
 /* GENERAL STYLES */
 * {
   -webkit-box-sizing: border-box;
@@ -112,8 +112,8 @@ h2 span {
 .brand-phrase {
   font-size: 1.7em;
   text-align: center;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 a.underlined {
@@ -365,6 +365,7 @@ a.underlined:hover {
 #portfolio-section {
     height: auto;
   min-height: 550px;
+
 }
 
 @media only screen
@@ -373,6 +374,18 @@ a.underlined:hover {
       margin-left: 100px;
       margin-right: 100px;
     }
+
+    #portfolio-section {
+        height: auto;
+      min-height: 550px;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+
+
+
+
+
 }
 
 .thumbnails {
